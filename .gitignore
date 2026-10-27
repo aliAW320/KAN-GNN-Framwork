@@ -8,3 +8,6 @@ __pycache__/
 htmlcov/
 build/
 dist/
+
+# Research papers
+*.[pP][dD][fF]
