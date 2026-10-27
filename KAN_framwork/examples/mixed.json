@@ -1,0 +1,14 @@
+{
+  "in_channels": 2,
+  "hidden_channels": 8,
+  "out_channels": 2,
+  "task": "node",
+  "preprocessing": {"kind": "kan", "basis": "fourier", "basis_kwargs": {"num_basis": 9}},
+  "layers": [
+    {"operator": "gcn", "message": {"kind": "mlp"}, "update": {"kind": "kan", "basis": "rbf"}},
+    {"operator": "gatv2", "heads": 2, "message": {"kind": "kan", "basis": "bspline"},
+     "attention": {"kind": "mlp", "bias": false}, "update": {"kind": "mlp"}}
+  ],
+  "readout": {"kind": "kan", "basis": "relu"},
+  "decision": {"kind": "mlp", "hidden": [8]}
+}
