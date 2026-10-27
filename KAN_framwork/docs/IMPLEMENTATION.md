@@ -439,3 +439,18 @@ existing defaults and unnormalized state-dict keys remain compatible. Added
 and repeated training, a runnable user-guide section and updated CI example runs.
 No upstream files were copied or added as dependencies. Exact molecular-model
 reproduction and grid adaptation remain deferred.
+
+## Complete repository README
+
+Expanded the root README from a documentation index into a complete overview of
+both packages. Cross-checked public exports, transform/training configuration,
+CLI flags and current workflow definitions. Documented capabilities, installation,
+independent stage selection, operator/basis options, SKAN settings, tensor/task
+contracts, objectives, preprocessing, extensions, numerical transforms, GPU
+constraints, persistence, automation, repository layout and research boundaries.
+
+Verification: all **eight root README Python examples passed** in separate
+processes with temporary working directories and a CPU target; every relative
+file link resolved. No runtime or workflow code changed in this documentation
+update. Existing test totals in the README are labeled as recorded results from
+the earlier SKAN verification rather than a newly executed full regression run.
