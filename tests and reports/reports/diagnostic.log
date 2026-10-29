@@ -1,0 +1,28 @@
+/home/ali/CAGNN/.venv/lib/python3.14/site-packages/torch/jit/_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Preparing bace
+bace: pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf: completed
+Preparing bbbp
+bbbp: pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf: completed
+Preparing esol
+esol: pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf: completed
+Preparing freesolv
+freesolv: pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf: completed
+Preparing hiv
+hiv: pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf: completed
+Preparing lipophilicity
+lipophilicity: pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf: completed
+Preparing muv
+muv: pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf: completed
+Preparing qm7
+qm7: pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf: completed
+Preparing qm8
+qm8: pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf: completed
+Preparing qm9
+qm9: pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf: completed
+Preparing sider
+sider: pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf: completed
+Preparing tox21
+tox21: pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf: completed
+Preparing toxcast
+toxcast: pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf: completed

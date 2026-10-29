@@ -1,0 +1,39 @@
+{
+  "name": "qm8",
+  "kind": "regression",
+  "graphs": 21786,
+  "invalid": [],
+  "target_columns": [
+    "E1-CC2",
+    "E2-CC2",
+    "f1-CC2",
+    "f2-CC2",
+    "E1-PBE0",
+    "E2-PBE0",
+    "f1-PBE0",
+    "f2-PBE0",
+    "E1-CAM",
+    "E2-CAM",
+    "f1-CAM",
+    "f2-CAM"
+  ],
+  "target_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    13,
+    14,
+    15,
+    16
+  ],
+  "features": "rdkit-dense9-v1-no-bond-features",
+  "limited": false,
+  "csv_sha256": "3e70e56805edb2f0796b64f96af9b53dd8cca408d775612d47123f7d2da7d61d",
+  "qm8_duplicate_policy": "first_column_per_label",
+  "rdkit_version": "2026.09.1"
+}

@@ -11,3 +11,5 @@ dist/
 
 # Research papers
 *.[pP][dD][fF]
+data/
+*.zip

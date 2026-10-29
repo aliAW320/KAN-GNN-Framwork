@@ -1,0 +1,89 @@
+{
+  "dataset": "tox21",
+  "model_id": "pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf",
+  "seed": 0,
+  "candidate": {
+    "model_id": "pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf",
+    "preprocessing": "mlp",
+    "operator": "gcn",
+    "message": "kan",
+    "update": "kan",
+    "decision": "mlp",
+    "basis": "rbf",
+    "has_kan": true
+  },
+  "dataset_sha256": "7d7e7facd853a63e79ddce4e9c3fcb7a0d83a1c300b603031c0f2c64fbe77761",
+  "status": "completed",
+  "parameters": 9740,
+  "effective_hidden_channels": 16,
+  "best_epoch": 2,
+  "epochs_executed": 2,
+  "validation": {
+    "score": 0.49162883653299727,
+    "metric": "roc_auc",
+    "valid_tasks": 11,
+    "per_task": [
+      0.45075757575757575,
+      null,
+      0.5845771144278606,
+      0.7536231884057971,
+      0.5572390572390572,
+      0.20121951219512196,
+      0.7407407407407407,
+      0.3510928961748634,
+      0.6706349206349206,
+      0.5995670995670995,
+      0.35517241379310344,
+      0.14329268292682926
+    ],
+    "loss": 0.42999254331623193
+  },
+  "test": {
+    "score": 0.4310397716862711,
+    "metric": "roc_auc",
+    "valid_tasks": 12,
+    "per_task": [
+      0.38095238095238093,
+      0.10256410256410256,
+      0.6333333333333333,
+      0.0,
+      0.6363636363636364,
+      0.6486486486486487,
+      0.6060606060606061,
+      0.1794871794871795,
+      0.7154471544715447,
+      0.3870967741935484,
+      0.5884057971014492,
+      0.29411764705882354
+    ],
+    "loss": 0.5257841785316882
+  },
+  "selection_metric": "validation_loss",
+  "seconds": 0.28837857699909364,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_loss": 0.506354189847891,
+      "validation_score": 0.48235031064526307
+    },
+    {
+      "epoch": 2,
+      "validation_loss": 0.42999254331623193,
+      "validation_score": 0.49162883653299727
+    }
+  ],
+  "train_observed_tasks": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ]
+}

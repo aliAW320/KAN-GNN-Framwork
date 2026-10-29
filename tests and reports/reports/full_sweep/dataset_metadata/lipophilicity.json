@@ -1,0 +1,16 @@
+{
+  "name": "lipophilicity",
+  "kind": "regression",
+  "graphs": 4200,
+  "invalid": [],
+  "target_columns": [
+    "exp"
+  ],
+  "target_indices": [
+    1
+  ],
+  "features": "rdkit-dense9-v1-no-bond-features",
+  "limited": false,
+  "csv_sha256": "aed41590cb30609d51d8e08ad3ff06495a76e80e211358801f596b10da69bacd",
+  "qm8_duplicate_policy": null
+}

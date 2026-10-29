@@ -1,0 +1,89 @@
+{
+  "dataset": "qm9",
+  "model_id": "pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf",
+  "seed": 0,
+  "candidate": {
+    "model_id": "pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf",
+    "preprocessing": "mlp",
+    "operator": "gcn",
+    "message": "kan",
+    "update": "kan",
+    "decision": "mlp",
+    "basis": "rbf",
+    "has_kan": true
+  },
+  "dataset_sha256": "3e668f8c34e4bc392a90d417a50a5eed3b64b842a817a633024bdc054c68ccb4",
+  "status": "completed",
+  "parameters": 9740,
+  "effective_hidden_channels": 16,
+  "best_epoch": 2,
+  "epochs_executed": 2,
+  "validation": {
+    "score": 20.420492192807917,
+    "metric": "mae",
+    "valid_tasks": 12,
+    "per_task": [
+      1.1006572246551514,
+      7.281242847442627,
+      0.0154689596965909,
+      0.04566062241792679,
+      0.05496698245406151,
+      92.67066192626953,
+      0.030815541744232178,
+      34.72789001464844,
+      34.343753814697266,
+      36.56544494628906,
+      34.822872161865234,
+      3.3864712715148926
+    ],
+    "loss": 0.8196732722795926
+  },
+  "test": {
+    "score": 19.33174312657987,
+    "metric": "mae",
+    "valid_tasks": 12,
+    "per_task": [
+      0.941273033618927,
+      6.981271266937256,
+      0.020224519073963165,
+      0.04119057580828667,
+      0.05154035612940788,
+      100.23005676269531,
+      0.02750433050096035,
+      29.548404693603516,
+      28.89689064025879,
+      32.200355529785156,
+      29.641557693481445,
+      3.4006481170654297
+    ],
+    "loss": 0.7450375627068913
+  },
+  "selection_metric": "validation_loss",
+  "seconds": 0.19302815700029896,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_loss": 0.8548369224254901,
+      "validation_score": 20.618757022699963
+    },
+    {
+      "epoch": 2,
+      "validation_loss": 0.8196732722795926,
+      "validation_score": 20.420492192807917
+    }
+  ],
+  "train_observed_tasks": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "freesolv",
+  "kind": "regression",
+  "graphs": 512,
+  "invalid": [],
+  "target_columns": [
+    "expt"
+  ],
+  "target_indices": [
+    2
+  ],
+  "features": "rdkit-dense9-v1-no-bond-features",
+  "limited": true,
+  "csv_sha256": "ab5895d914ee87cb563bd7b9611e869527bba45bec6b014d34dc495a0f9dcb72",
+  "qm8_duplicate_policy": null
+}

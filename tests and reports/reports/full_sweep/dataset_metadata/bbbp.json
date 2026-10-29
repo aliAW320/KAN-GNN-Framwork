@@ -1,0 +1,61 @@
+{
+  "name": "bbbp",
+  "kind": "classification",
+  "graphs": 2039,
+  "invalid": [
+    {
+      "line": 61,
+      "reason": "invalid_smiles"
+    },
+    {
+      "line": 63,
+      "reason": "invalid_smiles"
+    },
+    {
+      "line": 393,
+      "reason": "invalid_smiles"
+    },
+    {
+      "line": 616,
+      "reason": "invalid_smiles"
+    },
+    {
+      "line": 644,
+      "reason": "invalid_smiles"
+    },
+    {
+      "line": 647,
+      "reason": "invalid_smiles"
+    },
+    {
+      "line": 648,
+      "reason": "invalid_smiles"
+    },
+    {
+      "line": 649,
+      "reason": "invalid_smiles"
+    },
+    {
+      "line": 650,
+      "reason": "invalid_smiles"
+    },
+    {
+      "line": 651,
+      "reason": "invalid_smiles"
+    },
+    {
+      "line": 687,
+      "reason": "invalid_smiles"
+    }
+  ],
+  "target_columns": [
+    "p_np"
+  ],
+  "target_indices": [
+    2
+  ],
+  "features": "rdkit-dense9-v1-no-bond-features",
+  "limited": false,
+  "csv_sha256": "d07a38487aeac5cee5508413e468043ef3097451d2a112701c2d60be9ec6b662",
+  "qm8_duplicate_policy": null
+}

@@ -1,0 +1,72 @@
+{
+  "name": "tox21",
+  "kind": "classification",
+  "graphs": 7823,
+  "invalid": [
+    {
+      "line": 1324,
+      "reason": "invalid_smiles"
+    },
+    {
+      "line": 2292,
+      "reason": "invalid_smiles"
+    },
+    {
+      "line": 2299,
+      "reason": "invalid_smiles"
+    },
+    {
+      "line": 3560,
+      "reason": "invalid_smiles"
+    },
+    {
+      "line": 4567,
+      "reason": "invalid_smiles"
+    },
+    {
+      "line": 4651,
+      "reason": "invalid_smiles"
+    },
+    {
+      "line": 5540,
+      "reason": "invalid_smiles"
+    },
+    {
+      "line": 6725,
+      "reason": "invalid_smiles"
+    }
+  ],
+  "target_columns": [
+    "NR-AR",
+    "NR-AR-LBD",
+    "NR-AhR",
+    "NR-Aromatase",
+    "NR-ER",
+    "NR-ER-LBD",
+    "NR-PPAR-gamma",
+    "SR-ARE",
+    "SR-ATAD5",
+    "SR-HSE",
+    "SR-MMP",
+    "SR-p53"
+  ],
+  "target_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "features": "rdkit-dense9-v1-no-bond-features",
+  "limited": false,
+  "csv_sha256": "7d7e7facd853a63e79ddce4e9c3fcb7a0d83a1c300b603031c0f2c64fbe77761",
+  "qm8_duplicate_policy": null,
+  "rdkit_version": "2026.09.1"
+}

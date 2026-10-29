@@ -1,0 +1,16 @@
+{
+  "name": "qm7",
+  "kind": "regression",
+  "graphs": 6834,
+  "invalid": [],
+  "target_columns": [
+    "u0_atom"
+  ],
+  "target_indices": [
+    1
+  ],
+  "features": "rdkit-dense9-v1-no-bond-features",
+  "limited": false,
+  "csv_sha256": "bd5ecd087ab346856f02d8e4fa7a2f5d57bb1f5991730f9e2833f054cf3b7ce5",
+  "qm8_duplicate_policy": null
+}

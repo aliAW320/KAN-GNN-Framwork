@@ -1,0 +1,28 @@
+{
+  "model_dataset_status_counts": {
+    "excluded_no_kan": 624,
+    "pending": 9360
+  },
+  "run_files": 0,
+  "candidate_models": 768,
+  "eligible_models": 720,
+  "datasets": 13,
+  "seeds": [
+    0
+  ],
+  "settings": {
+    "independent": false,
+    "epochs": 20,
+    "seeds": [
+      0
+    ],
+    "width": 32,
+    "graph_layers": 2,
+    "batch_size": 32,
+    "lr": 0.001,
+    "patience": 10,
+    "limit": null,
+    "device": "cpu",
+    "features": "rdkit-dense9-v1-no-bond-features"
+  }
+}

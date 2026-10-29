@@ -1,0 +1,56 @@
+{
+  "dataset": "hiv",
+  "model_id": "pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf",
+  "seed": 0,
+  "candidate": {
+    "model_id": "pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf",
+    "preprocessing": "mlp",
+    "operator": "gcn",
+    "message": "kan",
+    "update": "kan",
+    "decision": "mlp",
+    "basis": "rbf",
+    "has_kan": true
+  },
+  "dataset_sha256": "9ffa7fe57dc86c342627ee1d5255e937e2ab812393c73c4d16c697022f6e1d22",
+  "status": "completed",
+  "parameters": 9553,
+  "effective_hidden_channels": 16,
+  "best_epoch": 2,
+  "epochs_executed": 2,
+  "validation": {
+    "score": 0.22,
+    "metric": "roc_auc",
+    "valid_tasks": 1,
+    "per_task": [
+      0.22
+    ],
+    "loss": 0.16595500736282423
+  },
+  "test": {
+    "score": 0.5,
+    "metric": "roc_auc",
+    "valid_tasks": 1,
+    "per_task": [
+      0.5
+    ],
+    "loss": 0.1680095937906527
+  },
+  "selection_metric": "validation_loss",
+  "seconds": 0.2942434050000884,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_loss": 0.20611954423097464,
+      "validation_score": 0.2
+    },
+    {
+      "epoch": 2,
+      "validation_loss": 0.16595500736282423,
+      "validation_score": 0.22
+    }
+  ],
+  "train_observed_tasks": [
+    true
+  ]
+}

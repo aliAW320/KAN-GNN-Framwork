@@ -1,0 +1,39 @@
+{
+  "name": "qm9",
+  "kind": "regression",
+  "graphs": 133885,
+  "invalid": [],
+  "target_columns": [
+    "mu",
+    "alpha",
+    "homo",
+    "lumo",
+    "gap",
+    "r2",
+    "zpve",
+    "u0",
+    "u298",
+    "h298",
+    "g298",
+    "cv"
+  ],
+  "target_indices": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "features": "rdkit-dense9-v1-no-bond-features",
+  "limited": false,
+  "csv_sha256": "3e668f8c34e4bc392a90d417a50a5eed3b64b842a817a633024bdc054c68ccb4",
+  "qm8_duplicate_policy": null,
+  "rdkit_version": "2026.09.1"
+}

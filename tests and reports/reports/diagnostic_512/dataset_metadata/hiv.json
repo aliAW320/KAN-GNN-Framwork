@@ -1,0 +1,21 @@
+{
+  "name": "hiv",
+  "kind": "classification",
+  "graphs": 512,
+  "invalid": [
+    {
+      "line": 277,
+      "reason": "invalid_smiles"
+    }
+  ],
+  "target_columns": [
+    "HIV_active"
+  ],
+  "target_indices": [
+    2
+  ],
+  "features": "rdkit-dense9-v1-no-bond-features",
+  "limited": true,
+  "csv_sha256": "9ffa7fe57dc86c342627ee1d5255e937e2ab812393c73c4d16c697022f6e1d22",
+  "qm8_duplicate_policy": null
+}

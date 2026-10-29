@@ -1,0 +1,56 @@
+{
+  "dataset": "lipophilicity",
+  "model_id": "pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf",
+  "seed": 0,
+  "candidate": {
+    "model_id": "pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf",
+    "preprocessing": "mlp",
+    "operator": "gcn",
+    "message": "kan",
+    "update": "kan",
+    "decision": "mlp",
+    "basis": "rbf",
+    "has_kan": true
+  },
+  "dataset_sha256": "aed41590cb30609d51d8e08ad3ff06495a76e80e211358801f596b10da69bacd",
+  "status": "completed",
+  "parameters": 9553,
+  "effective_hidden_channels": 16,
+  "best_epoch": 1,
+  "epochs_executed": 2,
+  "validation": {
+    "score": 1.0671688318252563,
+    "metric": "mae",
+    "valid_tasks": 1,
+    "per_task": [
+      1.0671688318252563
+    ],
+    "loss": 1.1830196472314687
+  },
+  "test": {
+    "score": 1.069698452949524,
+    "metric": "mae",
+    "valid_tasks": 1,
+    "per_task": [
+      1.069698452949524
+    ],
+    "loss": 1.2055854026009054
+  },
+  "selection_metric": "validation_loss",
+  "seconds": 0.34015172500039625,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_loss": 1.1830196472314687,
+      "validation_score": 1.0671688318252563
+    },
+    {
+      "epoch": 2,
+      "validation_loss": 1.2135034432777991,
+      "validation_score": 1.0757851600646973
+    }
+  ],
+  "train_observed_tasks": [
+    true
+  ]
+}

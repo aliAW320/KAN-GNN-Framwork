@@ -1,0 +1,17 @@
+{
+  "name": "bace",
+  "kind": "classification",
+  "graphs": 1513,
+  "invalid": [],
+  "target_columns": [
+    "Class"
+  ],
+  "target_indices": [
+    2
+  ],
+  "features": "rdkit-dense9-v1-no-bond-features",
+  "limited": false,
+  "csv_sha256": "f3fb9ce90bada3e2bd6148b0df13f8f8145a357bf87df0dd5b391ede974fc737",
+  "qm8_duplicate_policy": null,
+  "rdkit_version": "2026.09.1"
+}

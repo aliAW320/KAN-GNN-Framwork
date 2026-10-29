@@ -1,0 +1,104 @@
+{
+  "dataset": "muv",
+  "model_id": "pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf",
+  "seed": 0,
+  "candidate": {
+    "model_id": "pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf",
+    "preprocessing": "mlp",
+    "operator": "gcn",
+    "message": "kan",
+    "update": "kan",
+    "decision": "mlp",
+    "basis": "rbf",
+    "has_kan": true
+  },
+  "dataset_sha256": "efcde86d98393c6537052c70c67ed121f454fa9e4e5ea6d69b7967b767f6eba8",
+  "status": "completed",
+  "parameters": 9825,
+  "effective_hidden_channels": 16,
+  "best_epoch": 2,
+  "epochs_executed": 2,
+  "validation": {
+    "score": null,
+    "metric": "roc_auc",
+    "valid_tasks": 0,
+    "per_task": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "loss": 0.334611275424696
+  },
+  "test": {
+    "score": null,
+    "metric": "roc_auc",
+    "valid_tasks": 0,
+    "per_task": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "loss": 0.3423546112102011
+  },
+  "selection_metric": "validation_loss",
+  "seconds": 0.32871630400040885,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_loss": 0.4625039476237885,
+      "validation_score": null
+    },
+    {
+      "epoch": 2,
+      "validation_loss": 0.334611275424696,
+      "validation_score": null
+    }
+  ],
+  "train_observed_tasks": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ]
+}

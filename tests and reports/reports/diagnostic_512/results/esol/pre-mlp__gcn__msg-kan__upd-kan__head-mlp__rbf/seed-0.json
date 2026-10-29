@@ -1,0 +1,56 @@
+{
+  "dataset": "esol",
+  "model_id": "pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf",
+  "seed": 0,
+  "candidate": {
+    "model_id": "pre-mlp__gcn__msg-kan__upd-kan__head-mlp__rbf",
+    "preprocessing": "mlp",
+    "operator": "gcn",
+    "message": "kan",
+    "update": "kan",
+    "decision": "mlp",
+    "basis": "rbf",
+    "has_kan": true
+  },
+  "dataset_sha256": "8c06a76f0c6487d29ab0f903e6a7a7139f189ab3c1178f159c8be8964602f189",
+  "status": "completed",
+  "parameters": 9553,
+  "effective_hidden_channels": 16,
+  "best_epoch": 1,
+  "epochs_executed": 2,
+  "validation": {
+    "score": 1.2630159854888916,
+    "metric": "mae",
+    "valid_tasks": 1,
+    "per_task": [
+      1.2630159854888916
+    ],
+    "loss": 0.5644862404683741
+  },
+  "test": {
+    "score": 2.0596261024475098,
+    "metric": "mae",
+    "valid_tasks": 1,
+    "per_task": [
+      2.0596261024475098
+    ],
+    "loss": 1.482038140296936
+  },
+  "selection_metric": "validation_loss",
+  "seconds": 0.2301261529992189,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_loss": 0.5644862404683741,
+      "validation_score": 1.2630159854888916
+    },
+    {
+      "epoch": 2,
+      "validation_loss": 0.6104985511884456,
+      "validation_score": 1.3041800260543823
+    }
+  ],
+  "train_observed_tasks": [
+    true
+  ]
+}

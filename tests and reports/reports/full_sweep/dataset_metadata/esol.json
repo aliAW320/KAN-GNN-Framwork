@@ -1,0 +1,16 @@
+{
+  "name": "esol",
+  "kind": "regression",
+  "graphs": 1128,
+  "invalid": [],
+  "target_columns": [
+    "measured log solubility in mols per litre"
+  ],
+  "target_indices": [
+    8
+  ],
+  "features": "rdkit-dense9-v1-no-bond-features",
+  "limited": false,
+  "csv_sha256": "8c06a76f0c6487d29ab0f903e6a7a7139f189ab3c1178f159c8be8964602f189",
+  "qm8_duplicate_policy": null
+}
